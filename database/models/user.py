@@ -1,0 +1,11 @@
+from pydantic import BaseModel
+
+
+class User(BaseModel):
+    id: str | None
+    username: str
+    email: str
+    age: int
+
+
+# 6410dfaf592e4f33f66814e8
