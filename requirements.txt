@@ -3,3 +3,5 @@ python-jose
 passlib
 pymongo
 python_multipart
+python-dotenv
+python-decouple
